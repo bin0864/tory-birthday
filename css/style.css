@@ -236,11 +236,11 @@ header h1 {
     left: 0px;
     padding: 16px 0;
     transform: translateY(100%);
+    transition: transform .3s;
 }
 
 .plans li:hover .panel{
     transform: translateY(0%);
-    transition: transform .3s;
 }
 
 
